@@ -40,7 +40,7 @@ You can use Firebase Cloud Functions to handle server-side logic, such as proces
 
 ### Zustand:
 
-Use Zustand for managing application state, such as user data and chat state.
+Use for managing application state, such as user data and chat state.
 
 
 ## Utilities:
