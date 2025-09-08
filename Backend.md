@@ -14,14 +14,13 @@ This document outlines the backend components and architecture of the **Quizzy A
 ## Folder Structure
 
 /server
-│
-├── controllers/       # Request logic
-├── models/            # Mongoose models
-├── routes/            # API routes
-├── middleware/        # Auth middleware
-├── utils/             # Helpers
-├── config/            # DB config
-└── index.js           # Entry point
+controllers/       # Request logic
+models/            # Mongoose models
+routes/            # API routes
+middleware/        # Auth middleware
+utils/             # Helpers
+config/            # DB config
+index.js           # Entry point
 
 ## Features
 
