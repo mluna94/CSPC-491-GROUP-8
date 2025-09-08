@@ -2,7 +2,7 @@
 
 GROUP MEMBERS 
 
-## Project
+## Project Quizzz
 
 
 Made by:
@@ -31,8 +31,6 @@ Made by:
 ### JavaScript/JSX - Primary programming language
 
 ### React - Frontend framework
-
-### Vite - Frontend buildtool 
 
 ### CSS - Styling
 
@@ -71,8 +69,6 @@ Made by:
 ### Group management
 
 ### Message formatting (URL detection/linkify)
-
-### Emoji support
 
 ### File upload preview
 
