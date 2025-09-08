@@ -19,19 +19,6 @@ This is the frontend for the Quizzy App, built using React. It features multiple
 - Context API (for state management)
 - Custom CSS
 
-## Folder Structure
-
-/client
-│
-├── public/             # Static files
-├── src/
-│   ├── assets/         # Images and icons
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page views (Home, Login, Dashboard, etc.)
-│   ├── contexts/       # Global state (Auth, Quiz)
-│   ├── styles/         # CSS stylesheets
-│   └── App.js          # Main app component with routes
-
 ## Getting Started
 
 1. Navigate to the frontend folder:
