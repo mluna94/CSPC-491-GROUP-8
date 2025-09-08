@@ -1,89 +1,45 @@
-# Here are the main components of the  backend for this project:
+# Backend - Quizzy App
 
+This document outlines the backend components and architecture of the **Quizzy App**, developed as part of **CPSC-491-GROUP-8**.
 
-## **Firebase Firestore:**
+## Technologies Used
 
+- Node.js – JavaScript runtime
+- Express.js – Web framework
+- MongoDB – NoSQL database
+- Mongoose – ODM for MongoDB
+- JWT – Authentication
+- bcrypt – Password hashing
 
-### Database: 
+## Folder Structure
 
-Firestore will be your primary database for storing and retrieving data.
+/server
+│
+├── controllers/       # Request logic
+├── models/            # Mongoose models
+├── routes/            # API routes
+├── middleware/        # Auth middleware
+├── utils/             # Helpers
+├── config/            # DB config
+└── index.js           # Entry point
 
-### Authentication: 
+## Features
 
-Firebase Authentication can be used to manage user authentication and authorization.
+- User Authentication (JWT + social login)
+- Quiz creation from uploads or text
+- User quiz history
+- Dashboard data (trending & activity)
 
-### Real-time Updates: 
+## Authentication
 
-Firestore provides real-time updates to keep your application data in sync.
+- Tokens via JWT
+- Middleware for protected routes
 
-## API Endpoints:
+## Setup Instructions
 
-### Firestore Queries: 
-
-Use Firestore queries to fetch data from the database.
-
-### Firestore Document Updates: 
-
-Use Firestore to update documents in the database.
-
-
-## Middleware:
-
-
-### Firebase Functions:
-
-You can use Firebase Cloud Functions to handle server-side logic, such as processing data before saving it to Firestore or sending notifications.
-
-
-## State Management:
-
-
-### Zustand:
-
-Use for managing application state, such as user data and chat state.
-
-
-## Utilities:
-
-
-### Emoji Picker: 
-
-Use the Emoji Picker component to allow users to select emojis.
-
-### Timeago.js: 
-
-Use Timeago.js to format timestamps in a human-readable format.
-
-
-## React Components:
-
-
-### Chat Component: 
-
-The main component for handling chat functionality, including displaying messages, sending messages, and handling user interactions.
-
-
-## Here is a brief overview of how these components fit together in the project:
-
-
-### Firestore: 
-
-Store and retrieve chat messages, user data, and other relevant information.
-
-### Firebase Authentication: 
-
-Manage user authentication and authorization.
-
-### Zustand: 
-
-Manage application state, such as the current user and chat state.
-
-### React Components: 
-
-Build the user interface for your chat application, including the Chat component.
-
-### Emoji Picker: 
-
-Allow users to select emojis in their messages.
-
-### Timeago.js: 
+1. Navigate to the backend folder:
+   ```bash
+   cd server
+npm installMONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+npm start
