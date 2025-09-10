@@ -1,99 +1,37 @@
-# CSPC-491-GROUP-8
+# CPSC-491-GROUP-8
 
-GROUP MEMBERS 
+# Quizzy App
 
-## Project
+A React-based quiz application with multiple views and interfaces, built without external CSS frameworks.
 
+## Features
 
-Made by:
+- 📱 **Responsive Design** - Works on mobile and desktop
+- 🎯 **Multiple Quiz Views** - Mobile and desktop quiz interfaces
+- 🏠 **Landing Page** - Marketing page with hero section
+- 🔐 **Authentication** - Login and signup forms with social login
+- 📊 **Dashboard** - Trending topics and recent activity tracking
+- 📝 **Quiz Generation** - Upload documents or paste text to create quizzes
+- 🎨 **Custom CSS** - No external frameworks, pure CSS styling
 
-### Marco Luna
+## Screenshots
 
-### David Pham
+The app includes several different views:
+- Landing page with gradient background
+- User authentication forms
+- Dashboard with trending topics
+- Quiz generation interface
+- Interactive quiz views (mobile & desktop)
 
-### Mohamed Alqubaisi
+## Setup Instructions
 
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
+### Installation
 
-
-## Website link:
-
-
-## Youtube Explanatation Video:
-
-
-# Important info:
-
-
-## Languages & Core Technologies:
-
-
-### JavaScript/JSX - Primary programming language
-
-### React - Frontend framework
-
-### Vite - Frontend buildtool 
-
-### CSS - Styling
-
-
-## Libraries & Dependencies:
-
-
-### Firebase/Firestore - Backend & real-time database
-
-### Authentication
-
-### Document storage
-
-### Real-time updates (onSnapshot)
-
-### React Router (useNavigate) - Navigation
-
-### EmojiPicker - Emoji selection interface
-
-### timeago.js - Time formatting
-
-### Zustand (useUserStore) - State management
-
-
-## Key Features & Implementation:
-
-
-### Real-time messaging
-
-### Group chat functionality
-
-### Image upload/sharing
-
-### User profiles
-
-### Group management
-
-### Message formatting (URL detection/linkify)
-
-### Emoji support
-
-### File upload preview
-
-### User presence system
-
-### Development Tools & Patterns:
-
-### React Hooks (useState, useEffect)
-
-### Component-based architecture
-
-### Async/await patterns
-
-### Event handling
-
-### File handling (FileReader API)
-
-### Model dialogs
-
-### Responsive design
-
-## Deployment:
-
-### Netlify
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/quizzy-app.git
+   cd quizzy-app
